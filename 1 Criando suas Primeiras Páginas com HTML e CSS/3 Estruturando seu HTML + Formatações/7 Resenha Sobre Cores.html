@@ -1,0 +1,42 @@
+<html lang="pt-br">
+    <head>
+        <title>Resenha Sobre cores</title>
+        <style>
+            .card1{
+                border:solid 1px black;
+                width: 150px;
+                height: 150px;
+                position: absolute;
+                left: 40%;
+                top: 360;
+                z-index: 1;
+                background-color: gray;
+            }
+            .card2{
+                border:solid 1px black;
+                width: 110px;
+                height: 110px;
+                position: absolute;
+                left: 35%;
+                top: 300;
+                z-index: 2;
+                background-color: hsla(0, 0%, 0%, 0.8);
+            }
+        </style>
+    </head>
+    <body>          
+        <h1 style="color: deeppink;">Cores no navegador</h1>
+        <p>Navegadores modernos aceitam aproximadamente 140 cores. Você pode escolher por nome de cores ou também pelos seguintes valores:</p>
+        <ul>
+            <li><strong>RGB: </strong> Combinação de Vermelho, Verde e Azul (Red, Green, Blue);</li>
+            <li><strong>HEX: </strong> Combinação de Vermelho, Verde e Azul, mas descrito em Hexadecimal. Possibilidades: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E e F. Fórmula: ##<span style="color: red;">00</span><span style="color: green;">00</span><span style="color: blue;">00</span>;</li>
+            <li><strong>HSL: </strong> Matiz (Hue), Saturação (Saturation) e Iluminação (Lighten). A matiz tem os valores onde 0 é vermelho; 120, verde; 240, azul. Primeiro item vai até 360. Formula: hsl(hue, saturation(%), lighten(%));</li>
+            <li><strong>RGBA: </strong> Mesmo que RGB, porém adicionado canal Alpha (Transparência). Alpha vai de 0 a 1;</li>
+            <li><strong>HSLA: </strong> Mesmo que HSL, porém adicionado canal Alpha (Transparência). Alpha vai de 0 a 1.</li>
+        </ul>
+
+        <a href="https://www.w3schools.com/tags/ref_colornames.asp" target="_blank">Link para acessar exemplos de cores</a>        
+        <div class="card1"></div>
+        <div class="card2"></div>
+    </body>
+</html>
